@@ -49,7 +49,7 @@ body{
 }
 .nav2{
   display: flex;
-  margin-left: -53px;
+  margin-left: 21px;
 }
 .mainmenu{
   display: flex;
@@ -188,7 +188,7 @@ content: "";
 }
 .runningdiv{
 	display: flex;
-	margin: 0px 68px;
+	margin: 0px 63px;
 }
 
 .running1 {
@@ -383,7 +383,7 @@ content: "";
 	color: #fff;
 	font-size: 14px !important;
 	font-weight: 600;
-	margin-left: 550px !important;
+	 margin-left: 643px !important;
 
 }
 
@@ -646,7 +646,7 @@ margin: 5px 0 5px 0;
 }
 
 .stories{
-	margin: 49px 0 0 0 !important;
+	margin: 49px 0 0 19px !important;
   font-size: 36px;
 }
 .stories u {
