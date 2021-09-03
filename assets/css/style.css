@@ -27,18 +27,7 @@ body{
     margin-left: -26px;
     margin-top: -9px;
 }
-/*.img-tophead:hover{
-	font-size: 20px;
-}*/
-/*.fbhover {
-  background-color: yellow;
-  padding: 20px;
-  display: none;
-}
-  
-span:hover + .fbhover {
-  display: block;
-}*/
+
 .head1{
 	height: 624px;
 	width: 100%;
@@ -199,6 +188,7 @@ content: "";
 }
 .runningdiv{
 	display: flex;
+	margin: 0px 100px;
 }
 
 .running1 {
@@ -484,7 +474,8 @@ margin-top: 100px !important;
 
 .brilliant{
 	display: flex;
-	padding-left: 100px;
+	/*padding-left: 100px;*/
+	margin: 0px 100px;
 }
 .left{
 	width: 30%;
@@ -534,7 +525,7 @@ margin: 5px 0 5px 0;
 
 .bottomout{
 	display: flex;
-	margin:0px;
+	margin: 0px 100px;
 
 }
 
@@ -573,7 +564,7 @@ margin: 5px 0 5px 0;
 
 .sec-bottomout{
 	display: flex;
-	margin: 0;
+	margin: 0px 100px;
 
 }
 .p-bottompart1{
