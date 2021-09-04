@@ -16,16 +16,16 @@ body{
 
 }
 .img-tophead1 {
-    height: 49px;
-    width: 51px;
+    height: 43px;
+    width: 46px;
     margin-left: -26px;
     margin-top: -14px;
 }
 .img-tophead2 {
-    height: 39px;
-    width: 31px;
-    margin-left: -26px;
-    margin-top: -9px;
+    height: 33px;
+    width: 27px;
+    margin-left: -30px;
+    margin-top: -10px;
 }
 
 .head1{
@@ -40,47 +40,53 @@ body{
 	height: 30px;
 	background-color: rgba(187, 152, 63, 0.5)
 }
-.menuhover{
 
-}
-/*a.menuhover.newarrival{
-	width: 500px !important;
-}*/
+
 .insta{
 	padding-right: 15px !important;
 }
+
+  /*==========================my code=========*/
+.width98{
+  background-color: rgba(255,250,240, 0.5);
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
 .nav1{
   display: flex;
-  margin-left: 5px;
-  width: 300px;
+  width: 40%;
 }
 .nav2{
   display: flex;
-  margin-left: 0px;
+  width: 40%;
+}
+.logo{
+	width: 25%;
+    margin-top: -21px;
 }
 .mainmenu{
   display: flex;
   height: 60px;
   padding: 0;
-  margin-top: -2px;
-  margin-bottom: -2px;
-  background-color: #fff;
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  background-color: rgba(255,250,240, 0.5)
+
+  width: 98%;
+  margin: auto;
 }
 .img-logo{
     width: 102px;
-    height: 102px;
-    padding: 0px 236px 0px 303px;
-    margin: -21px 0 0 0;
+    /*height: 54px;*/
 
+    margin: auto;
+    display: block;
+    padding-top: -20px;
+
+}
+.d-flex{
+	display: flex;
 }
 .nav1 li{
   list-style: none;
-  padding-top: 6px;
 }
 .nav1 ul{
 	padding: 0;
@@ -92,26 +98,22 @@ body{
   text-decoration: none;
   color: #50575B;
   font-size: 14px;
-  /*border: 1px solid white;*/
   text-align: center;
   font-weight: 600;
-  padding: 10px 18px 0px 19px;
-  margin-right: -2px;
+  padding-left: 30px;
 }
 .nav2 li{
   list-style: none;
-  padding-top: 6px;
 }
 
 .nav2 a{
   text-decoration: none;
   color: #50575B;
   font-size: 14px;
-  /*border: 1px solid white;*/
   text-align: center;
   font-weight: 600;
   padding: 10px 17px 0px 19px;
-  margin-right: 1px;
+  /*margin-right: 1px;*/
 }
 .headings{
 	height: 400px;
@@ -120,7 +122,7 @@ body{
 .belowheader{
 	height: 25px;
 	width: 100%;
-	background-color: #212A2F;  /*base grey color*/
+	background-color: #212A2F;
 	margin-top: -132px;
 	color: #fff;
 	font-size: 12px;
@@ -867,5 +869,17 @@ a.menuhover:hover, a.menuhover:active{
 
 /************************************************
 				Home CSS Ends
+*************************************************/
+
+
+/*************************************************
+				Cart CSS Start
+*************************************************/
+
+
+
+
+/*************************************************
+				Cart CSS Ends
 *************************************************/
 
