@@ -942,6 +942,15 @@ a.menuhover:hover, a.menuhover:active{
 	margin-top: 100px;
 	
 }
+.upper-product-sec3 b{
+	font-size: 30px;
+	
+}
+.upper-product-sec3 b:hover{
+	color: #FF5733;
+	
+}
+
 .review{
 height: 62px;
     width: 125px;
