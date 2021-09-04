@@ -8,11 +8,11 @@ body{
 }
 
 .img-tophead{
-	height: 28px;
-	width: 25px;
-	padding-top: 0px;
-	margin-top: -3px;
-	padding-right: 8px;
+    height: 19px;
+    width: 21px;
+    padding-top: 0px;
+    margin-top: -3px;
+    padding-right: 18px;
 
 }
 .img-tophead1 {
@@ -40,16 +40,23 @@ body{
 	height: 30px;
 	background-color: rgba(187, 152, 63, 0.5)
 }
+.menuhover{
+
+}
+/*a.menuhover.newarrival{
+	width: 500px !important;
+}*/
 .insta{
 	padding-right: 15px !important;
 }
 .nav1{
   display: flex;
   margin-left: 5px;
+  width: 300px;
 }
 .nav2{
   display: flex;
-  margin-left: 21px;
+  margin-left: 0px;
 }
 .mainmenu{
   display: flex;
@@ -67,7 +74,7 @@ body{
 .img-logo{
     width: 102px;
     height: 102px;
-    padding: 0px 276px 0px 303px;
+    padding: 0px 236px 0px 303px;
     margin: -21px 0 0 0;
 
 }
@@ -103,7 +110,7 @@ body{
   /*border: 1px solid white;*/
   text-align: center;
   font-weight: 600;
-  padding: 10px 12px 0px 20px;
+  padding: 10px 17px 0px 19px;
   margin-right: 1px;
 }
 .headings{
@@ -188,7 +195,7 @@ content: "";
 }
 .runningdiv{
 	display: flex;
-	margin: 0px 63px;
+	margin: 0px 0px;
 }
 
 .running1 {
@@ -383,7 +390,7 @@ content: "";
 	color: #fff;
 	font-size: 14px !important;
 	font-weight: 600;
-	 margin-left: 643px !important;
+	margin-left: 572px !important;
 
 }
 
@@ -411,6 +418,9 @@ content: "";
     padding-bottom: 20px;
     margin-bottom: 0;
 }
+.resersing{
+	font-size: 45px !important;
+}
 
 .text-button1 {
   background-color: #4CAF50; /* Green */
@@ -431,14 +441,16 @@ content: "";
 
 }
 .text-button1:hover {
-  background-color: #EAA038;
+  background-color: #B06140;
   font-size: 18px;
   color: #fff;
+  border-bottom: 4px solid #FD6418;
 }
 .text-button2:hover {
-  background-color: #EAA038;
+  background-color: #B06140;
   font-size: 18px;
   color: #fff;
+  border-bottom: 4px solid #FD6418;
 }
 
 .special{
@@ -525,7 +537,7 @@ margin: 5px 0 5px 0;
 
 .bottomout{
 	display: flex;
-	margin: 0px 100px;
+	margin: 0px 20px;
 
 }
 
@@ -564,7 +576,7 @@ margin: 5px 0 5px 0;
 
 .sec-bottomout{
 	display: flex;
-	margin: 0px 100px;
+	margin: 0px 20px;
 
 }
 .p-bottompart1{
@@ -713,12 +725,41 @@ margin: 5px 0 5px 0;
 }
 .signupinput{
 	text-align: center;
-	margin-left: 600px;
+	margin-left: 448px;
+	display: flex;
 }
 
+input[type="text"] {
+  padding: 2px 2px;
+  padding: 10px 20px;
+  margin: 8px 0;
+  border: none;
+  border-bottom: 2px solid #212A2F;
+  background-color: #fff;
+}
+textarea[type="text"] {
+  padding: 2px 2px;
+  padding: 10px 20px;
+  margin: 8px 0;
+  border: none;
+  border-bottom: 2px solid #212A2F;
+  background-color: #fff;
+}
+.signup1{
+	padding: 100px 0 10px 0 !important;
+	font-size: 26px !important;
+	color: #808080;
+}
+.signup2{
+	padding: 2px 0 10px 0 !important;
 
-
-
+}
+.signupbutton{
+	background-color: #181818 !important;
+}
+.button-flat:hover{
+	background-color: #B06140;
+}
 
 
 
@@ -752,6 +793,9 @@ margin: 5px 0 5px 0;
 
 input[type=submit]:hover {
   background-color: #45a049;
+}
+.footbutton{
+	border-bottom: 4px solid red ;
 }
 
 .footer1{
@@ -793,11 +837,15 @@ input[type=submit]:hover {
 }
 .news{
 	border: none;
-	/*border-bottom: 1px solid #c4c4c4 !important;*/
 	background-color:#181818;
-	color: #fff;
-	/*margin-top: -1px;*/
-	/*margin-bottom: 10px;*/
+	color: #FD6418;
+
+}
+.news:hover{
+	border-bottom: 4px solid #FD6418;
+
+
+
 }
 .copyright{
 	height: 30px;
@@ -810,193 +858,14 @@ input[type=submit]:hover {
 	font-size: 13px;
 }
 
-/*a.menuhover:hover, a.menuhover:active{
-	color: #EAA038;
-	border: 2px solid #EAA038;
-	}*/
+a.menuhover:hover, a.menuhover:active{
+	color: #FD6418;
+	font-size: 18px;
+	/*border: 1px solid #EAA038;*/
+	}
 
 
 /************************************************
 				Home CSS Ends
-*************************************************/
-
-/************************************************
-				Blog CSS Start
-*************************************************/
-
-.bloghead{
-	height: 400px;
-	width: 100%;
-	background-image: url('img/bs8.png');
-	background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: fit;
-  position: relative;
-  /*margin-top: -20px;*/
-  /*margin-top: -20px;*/
-  background-position:center center ;
-}
-.bloghead1{
-	text-align: center;
-	
-
-}
-.blogposts{
-	height: 750px;
-	width: 1100px;
-	
-	margin-left: 140px;
-	margin-top: 100px;
-	/*margin-right: 200px;*/
-	/*padding-left: 100px;*/
-
-}
-.trtd1{
-    height: 230px;
-    width: 270px;
-	margin-left: -100;
-}
-td{
-	height: 234px;
-  width: 280px;
-  padding-top:0;
-  padding-bottom: 0;
-	
-}
-.blogtable{
-	margin: 50px 100px 50px 0px;
-  padding-left: 0px;
-  /*padding-bottom: 50px;*/
-
-}
-td a{
-	text-decoration: none;
-	padding: 0;
-	margin: 0;
-}
-.even {
-    /*padding: 16px 43px 30px 25px;*/
-    background-color: #F7E7E0;
-    padding-left: 10px;
-    padding-right: 10px;
-}
-.odd{
-
-}
-.foodres{
-	font-size: 10px;
-	color: #888686 ;
-
-}
-.foodtitle{
-			font-size: 20px;
-	color: #3E3B3B;
-	font-weight: 500; 
-}
-.foodbody{
-		font-size: 18px;
-	color: #636262  ;
-
-}
-.author{
-		font-size: 10px;
-	color: #888686 ;
-
-
-}
-
-/************************************************
-				Blog CSS Ends
-*************************************************/
-
-/************************************************
-				Contact CSS Starts
-*************************************************/
-
-.contactonly{
-	margin-top: 30px  !important;
-	padding-bottom: 30px !important;
-}
-
-.contacthead{
-	height: 400px;
-	width: 100%;
-	background-image: url('img/contact2.jpg');
-	background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: fit;
-  position: relative;
-  /*margin-top: -20px;*/
-  /*margin-top: -20px;*/
-  background-position:center center ;
-}
-
-
-/************************************************
-				Contacts CSS Ends
-*************************************************/
-
-/************************************************
-				Menu CSS Starts
-*************************************************/
-
-.menuhead{
-	height: 400px;
-	width: 100%;
-	background-image: url('img/menu.jpg');
-	background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: fit;
-  position: relative;
-  /*margin-top: -20px;*/
-  /*margin-top: -20px;*/
-  background-position:center center ;
-}
-.breakfastmenu{
-	text-align: center;
-	margin-left: 650px !important;
-}
-.breakfast{
-	height: 454px;
-	display: flex;
-	margin: -350px 100px 50px 0px;
-	width: 100%;
-	background-image: url('img/breakfast.jpg');
-	background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-  /*position: relative;*/
-  /*background-position:center center ;*/
-
-}
-.menubrk1{
-	padding-right: 100px;
-	padding-left: 280px;
-}
-.menubrk1-title{
-	font-size: 15px;
-	color: #A19F9F;
-	margin-top: 2px;
-}
-.brkh3{
-	margin-bottom: 1px;
-}
-.lunch{
-	background-image: url('img/lunch.jpg') !important	;
-}
-.dinner{
-	background-image: url('img/dinner.jpg') !important	;
-}
-.special1 {
-    height: 533px !important	;
-    /*margin-bottom: 0 !important	;*/
-    padding-bottom: 0px;
-}
-.menufooter{
-	margin-top: -50px !important;
-}
-
-/************************************************
-				Menu CSS Ends
 *************************************************/
 
