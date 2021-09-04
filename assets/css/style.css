@@ -977,10 +977,133 @@ size: 500px;
 border-bottom: 4px solid #FFC300 ;
 }
 
+.middleproduct{
+	height: 300px;
+	width: 60%;
+	display: flex;
+	padding-left: 26px;
+}
+.middleimg-1{
+	height: 150px;
+	width: 150px;
+	/*position: relative;*/
+	margin: -137px 13px 1px 2px;
+}
 
+.middleimg-01{
+	position: relative;
+	margin-top: -100px;
+}
+.middleimg-1:hover{
+	background-color: #FF5733 !important;
+	height: 200px;
+	width: 200px;
+	border-bottom: 4px solid #FFC300 ;
+}
+.divuppercolor{
+	position: relative;
+	margin-top: -100px;
 
+}
+.uppermiddleimg-01{
+	position: relative;
+	margin-top: 187px;
+	margin-left: -30px;
+	padding-right: 14px;
 
+}
+.uppermiddleimg-02{
+	position: relative;
+	margin-top: -13px;
+  margin-left: -4px;
 
+}
+.uppermiddleimg-1{
+	height: 100px;
+	width: 100px;
+	/*position: relative;*/
+	margin: -137px 13px 1px 2px;
+}
+.uppermiddleimg-1:hover{
+	background-color: #FF5733 !important;
+	height: 120px;
+	width: 120px;
+	border-bottom: 4px solid #FFC300 ;
+}
+.solecolordiv{
+	display: flex;
+	/*margin-bottom: 12px;*/
+
+}
+.solediv1{
+	height: 50px;
+	width: 50px;
+	border-radius: 50%;
+	border: 2px dotted #000;
+	background-color: #FDD770;
+	margin-right: 10px;
+
+}
+.solediv2{
+		height: 50px;
+	width: 50px;
+	border-radius: 50%;
+		border: 2px dotted #000;
+	background-color: #312D2C;
+	margin-right: 10px;
+	
+}
+.solediv3{
+		height: 50px;
+	width: 50px;
+	border-radius: 50%;
+		border: 2px dotted #000;
+	background-color: #228184;
+	
+}
+.solediv1:hover{
+
+	height: 52px;
+	width: 52px;
+}
+.solediv2:hover{
+
+	height: 52px;
+	width: 52px;
+}
+.solediv3:hover{
+
+	height: 52px;
+	width: 52px;
+	}
+
+.additionalinfo{
+	margin: -200px 200px 50px 200px;
+}
+
+.additionalinfotitle{
+	position: relative;
+	top: 0;
+	margin-top: 30px !important;
+
+}
+.productreview{
+	margin: 0px 200px 50px 200px;
+
+}
+.productreview1{
+ position: relative;
+ top: 0;
+	margin: -400px 200px 5px 11px;
+	padding-bottom: 0;
+
+}
+.mainreview{
+	display: flex;
+	width: 400px;
+	height: 50px;
+	border-bottom: 1px solid grey;
+}
 
 
 
