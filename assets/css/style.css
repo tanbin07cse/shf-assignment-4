@@ -224,7 +224,7 @@ content: "";
 
 .running-shadow{
 	box-shadow: rgb(211 212 213) 0px 6px 24px 0px;
-		height: 540px;
+	height: 540px;
 	width: 400px;
 
 }
@@ -875,6 +875,112 @@ a.menuhover:hover, a.menuhover:active{
 /*************************************************
 				Cart CSS Start
 *************************************************/
+
+.carthead1{
+	height: 85px !important;
+	/*height: 575px !important;*/
+	/*background-image: url('../img/headbanner.jpg');*/
+	background-image: none;
+	background-color: rgba(204,185,182) !important;
+	position: fixed;
+	top: 0;
+	z-index: 1;
+
+}
+.belowheadercart {
+    margin-top: 60px !important;
+    position: fixed;
+
+}
+.belowheadercart p {
+    padding: 0px 0 0px 0 !important;
+    margin-top: 0px;
+}
+.footer1-cart{
+	margin-top: 86px !important;
+}
+.upper-product{
+	height: 800px;
+	width: 100%;
+	display: flex;
+}
+.upper-product-sec1{
+	width: 30%;
+	background-image: url('../img/product1.jpg');
+	height: 400px;
+  width: 400px;
+  margin: 110px 8px 10px 30px;
+
+}
+.upper-product-sec1:hover{
+	background-color: rgba(15,238,238, .3);
+	border-bottom: 5px solid #468AE7;
+	background-image: url('../img/product1zoom.jpg');
+
+	height: 400px;
+}
+.upper-product-sec2:hover{
+	background-color: rgba(15,238,238, .3);
+	border-bottom: 5px solid #468AE7;
+	background-image: url('../img/product2zoom.jpg');
+
+	height: 400px;
+}
+/*.upper-product-sec1-zoom: hover{
+	background-image: url('../img/productzoom.jpg');
+
+}*/
+.upper-product-sec2{
+	width: 30%;
+	background-image: url('../img/product2.jpg');
+		height: 400px;
+    width: 400px;
+    margin: 110px 30px 10px 3px;
+}
+.upper-product-sec3{
+	width: 30%;
+	margin-top: 100px;
+	
+}
+.review{
+height: 62px;
+    width: 125px;
+    margin-top: -24px;
+}
+.img-uppercolor{
+	width: 352px;
+}
+.cartsizebutton{
+	height: 30px !important;
+	font-size: 15px;
+	text-align: center;
+	padding: 5px 10px;
+}
+
+.addcartbutton{
+		background-color: #DD3A2D;
+    padding: 10px 128px;
+    margin-left: -2px;
+}
+.addcartbutton:hover{
+background-color: #FF5733 !important;
+size: 500px;
+border-bottom: 4px solid #FFC300 ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
