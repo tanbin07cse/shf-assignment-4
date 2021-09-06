@@ -117,6 +117,7 @@ a{
   font-weight: 600;
   padding: 10px 17px 0px 19px;
   /*margin-right: 1px;*/
+  margin: auto;
 }
 .headings{
 	height: 400px;
@@ -183,6 +184,7 @@ content: "";
 	text-align: center;
 	font-size: 19px;
 	font-weight: 700;
+	margin: auto;
 }
 
 .favbar{
@@ -200,11 +202,12 @@ content: "";
 }
 .runningdiv{
 	display: flex;
-	margin: 0px 0px;
+	margin: 0px 30px;
 }
 
 .running1 {
-	margin: 10px 5px 10px 40px;
+	margin: 0 auto;
+	/*margin: 10px 5px 10px 40px;*/
 	height: 400px;
 	width: 400px;
 	box-shadow: rgb(211 212 213) 0px 6px 24px 0px;
@@ -306,14 +309,9 @@ hr{
 	font-size: 20px;
 	font-weight: 500;
 	color: #212A2F;
-	/*box-shadow: rgb(211 212 213) 0px 6px 24px 0px;
-	margin-left: -20px;
-
-}
-.img-running{
-	/*margin-left: -20px;*/
 	height: 400px;
 	width: 400px;
+	margin: auto;
 
 }
 .img-texticon{
@@ -365,7 +363,7 @@ hr{
 }
 
 .new1{
-	margin: 10px 5px 10px 40px;
+	margin: 10px 5px 10px 10px;
 	height: 400px;
 	width: 400px;
 	box-shadow: rgb(211 212 213) 0px 6px 24px 0px;
@@ -496,6 +494,7 @@ hr{
 }
 .runningdivflat{
 margin-top: 100px !important;
+
 }
 
 
@@ -503,6 +502,7 @@ margin-top: 100px !important;
 	padding-top: 120px;
 	width: 100%;
 	height: 300px;
+	margin: auto;
 }
 .img-nature{
 	height: 450px;
@@ -537,6 +537,7 @@ margin: 5px 0 5px 0;
 
 .brilliantmenu2{
 	padding-top: 173px !important;
+	margin: auto;
 }
 
 
@@ -714,14 +715,18 @@ margin: 5px 0 5px 0;
     z-index: 1;
 }
 .p-storycard{
-	margin: 15px 0 5px 20px !important;
+	margin: 15px 0 5px 10px !important;
 	font-size: 16px !important;
 	/*color: #36938C;*/
 	color: #CA5155;
 
 }
+.storycard{
+	width: 100%;
+	margin: auto;
+}
 .storycard1{
-	margin: 10px 5px 10px 40px;
+	margin: 10px 10px 10px 10px;
 	height: 400px;
 	width: 400px;
 	box-shadow: rgb(211 212 213) 0px 6px 24px 0px;
@@ -729,7 +734,7 @@ margin: 5px 0 5px 0;
 
 }
 .storycard2{
-		margin: 10px 5px 10px 40px;
+		margin: 10px 10px 10px 10px;
 	height: 400px;
 	width: 400px;
 	box-shadow: rgb(211 212 213) 0px 6px 24px 0px;
@@ -737,7 +742,7 @@ margin: 5px 0 5px 0;
 	
 }
 .storycard3{
-		margin: 10px 5px 10px 40px;
+		margin: 10px 10px 10px 10px;
 	height: 400px;
 	width: 400px;
 	box-shadow: rgb(211 212 213) 0px 6px 24px 0px;
@@ -794,11 +799,6 @@ textarea[type="text"] {
 .button-flat:hover{
 	background-color: #B06140;
 }
-
-
-
-
-
 
 
 .bg{
@@ -922,6 +922,7 @@ a.menuhover:hover, a.menuhover:active{
 .belowheadercart {
     margin-top: 60px !important;
     position: fixed;
+    margin: auto;
 
 }
 .belowheadercart p {
@@ -935,13 +936,15 @@ a.menuhover:hover, a.menuhover:active{
 	height: 800px;
 	width: 100%;
 	display: flex;
+	margin: auto;
 }
 .upper-product-sec1{
 	width: 30%;
 	background-image: url('../img/product1.jpg');
-	height: 400px;
-  width: 400px;
-  margin: 110px 8px 10px 30px;
+	height: 380px;
+  width: 380px;
+  margin: 110px 8px 10px 20px;
+  background-size: 380px 380px;
 
 }
 .upper-product-sec1:hover{
@@ -958,16 +961,14 @@ a.menuhover:hover, a.menuhover:active{
 
 	height: 400px;
 }
-/*.upper-product-sec1-zoom: hover{
-	background-image: url('../img/productzoom.jpg');
 
-}*/
 .upper-product-sec2{
 	width: 30%;
 	background-image: url('../img/product2.jpg');
-		height: 400px;
-    width: 400px;
+		height: 380px;
+    width: 380px;
     margin: 110px 30px 10px 3px;
+    background-size: 380px 380px;
 }
 .upper-product-sec3{
 	width: 30%;
@@ -1016,8 +1017,8 @@ border-bottom: 4px solid #FFC300 ;
 	padding-left: 26px;
 }
 .middleimg-1{
-	height: 150px;
-	width: 150px;
+	height: 120px;
+	width: 120px;
 	/*position: relative;*/
 	margin: -137px 13px 1px 2px;
 }
@@ -1141,6 +1142,7 @@ border-bottom: 4px solid #FFC300 ;
 
 .relatedproduct-flex{
 	display: flex;
+	margin: auto;
 
 }
 .relatedproduct{
