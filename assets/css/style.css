@@ -368,19 +368,26 @@ hr{
 	height: 50px;
 	width: 75px;
 	float: right;
-	margin: -122px 21px 30px 0;
+	position: relative;
+	top: -108px;
+	/*margin: -122px 21px 30px 0;*/
 }
 .img-new-newarrival{
 	height: 50px;
 	width: 75px;
 	float: right;
-	margin: -171px 21px 30px 0;
+	position: relative;
+	top: -164px;
+	/*margin: -171px 21px 30px 0;*/
 }
 .img-made-forrunning{
 	height: 50px;
 	width: 75px;
 	float: right;
-	margin: -171px 21px 30px 0;
+	position: relative;
+	top: -106px;
+
+	/*margin: -171px 21px 30px 0;*/
 }
 
 .new1{
