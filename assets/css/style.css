@@ -34,7 +34,7 @@ a{
 .head1{
 	height: 624px;
 	width: 100%;
-	background-image: url('../img/headbanner.jpg');
+	background-image: url('../img/headbanner.png');
 	background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -911,7 +911,7 @@ a.menuhover:hover, a.menuhover:active{
 .carthead1{
 	height: 85px !important;
 	/*height: 575px !important;*/
-	/*background-image: url('../img/headbanner.jpg');*/
+	/*background-image: url('../img/headbanner.png');*/
 	background-image: none;
 	background-color: rgba(204,185,182) !important;
 	position: fixed;
