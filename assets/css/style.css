@@ -1141,6 +1141,8 @@ border-bottom: 4px solid #FFC300 ;
 
 .relatedproduct-flex{
 	display: flex;
+	margin: auto;
+	width: 90%;
 }
 .relatedproduct{
 	font-size: 30px !important;
