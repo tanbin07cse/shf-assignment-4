@@ -371,6 +371,7 @@ hr{
 	box-shadow: rgb(211 212 213) 0px 6px 24px 0px;
 
 	background-image: url('../img/new1.jpg');
+	background-size: 400px 400px;
 
 }
 .new2{
@@ -380,6 +381,7 @@ hr{
 	box-shadow: rgb(211 212 213) 0px 6px 24px 0px;
 
 	background-image: url('../img/new2.jpg');
+	background-size: 400px 400px;
 
 }
 .new3{
@@ -389,6 +391,7 @@ hr{
 	box-shadow: rgb(211 212 213) 0px 6px 24px 0px;
 
 	background-image: url('../img/new3.jpg');
+	background-size: 400px 400px;
 
 }
 
@@ -1118,6 +1121,7 @@ border-bottom: 4px solid #FFC300 ;
 }
 .productreview{
 	margin: 0px 200px 50px 200px;
+	box-shadow: 0 0 1px 0 grey;
 
 }
 .productreview1{
@@ -1135,10 +1139,105 @@ border-bottom: 4px solid #FFC300 ;
 }
 
 
+.relatedproduct-flex{
+	display: flex;
+}
+.relatedproduct{
+	font-size: 30px !important;
+	margin-top: -104px !important;
+	
+}
+.relatedproduct1{
+	height: 250px;
+	width: 250px;
+	background-image: url('../img/r1.jpg');
+	background-size: 250px 250px;
+	opacity: 1;
+	margin-left: 12px;
+	box-shadow: grey;
+	border: 1px solid #ebebeb;
+}
+.relatedproduct2{
+	height: 250px;
+	width: 250px;
+	background-size: 250px 250px;
+	opacity: 1;
+	margin-left: 12px;
+	box-shadow: grey;
+	border: 1px solid #ebebeb;
+ background-image: url('../img/freq1.jpg') !important;
+}
+.relatedproduct3{
+	height: 250px;
+	width: 250px;
+	background-size: 250px 250px;
+	opacity: 1;
+	margin-left: 12px;
+	box-shadow: grey;
+	border: 1px solid #ebebeb;
+ background-image: url('../img/freq2.jpg') !important;
+}
+.relatedproduct4{
+	height: 250px;
+	width: 250px;
+	background-size: 250px 250px;
+	opacity: 1;
+	margin-left: 12px;
+	box-shadow: grey;
+	border: 1px solid #ebebeb;
+ background-image: url('../img/freq3.jpg') !important;
+}
+.relatedproduct5{
+	height: 250px;
+	width: 250px;
+	background-size: 250px 250px;
+	opacity: 1;
+	margin-left: 12px;
+	box-shadow: grey;
+	border: 1px solid #ebebeb;
+ background-image: url('../img/freq6.jpg') !important;
+}
+.relatedproductinner{
+	height: 500px;
+	width: 300px;
+	margin: 1px 5px 2px 5px;
 
+}
+.relatedproductinner p{
+	font-size: 20px;
+	font-weight: 600;
+	position: relative;
+	margin-top: 178px;
+	padding-left: 17px;
 
+}
+.relatedproductinner b{
+	font-size: 20px;
+	font-weight: 600;
+	position: relative;
+	margin-top: 178px;
+	padding-left: 17px;
+	color: #FF5733;
 
-
+}
+.relatedproduct1:hover{
+	opacity: 0.7;
+}
+.relatedproduct2:hover{
+	opacity: 0.7;
+}
+.relatedproduct3:hover{
+	opacity: 0.7;
+}
+.relatedproduct4:hover{
+	opacity: 0.7;
+}
+.relatedproduct5:hover{
+	opacity: 0.7;
+}
+/*.relatedproduct-flex a{
+	text-decoration: none !important;
+}*/
 
 
 
