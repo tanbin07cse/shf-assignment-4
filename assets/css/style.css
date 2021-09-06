@@ -1141,8 +1141,7 @@ border-bottom: 4px solid #FFC300 ;
 
 .relatedproduct-flex{
 	display: flex;
-	margin: auto;
-	width: 90%;
+
 }
 .relatedproduct{
 	font-size: 30px !important;
@@ -1200,7 +1199,7 @@ border-bottom: 4px solid #FFC300 ;
  background-image: url('../img/freq6.jpg') !important;
 }
 .relatedproductinner{
-	height: 500px;
+	height: 399px;
 	width: 300px;
 	margin: 1px 5px 2px 5px;
 
